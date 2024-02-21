@@ -142,3 +142,11 @@ th {
 .analyzedData {
   display: flex;
 }
+.appInfo {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 500px;
+  border: 2px solid black;
+  padding: 0.6rem;
+  border-radius: 6px;
+}

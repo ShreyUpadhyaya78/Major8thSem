@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Pos_Aspect from '../../assets/images/20_Pos_Aspects.jpg';
 
 export default function CsvUpload(serverURL: any) {
+  
   const [file, setFile] = useState();
   const [array, setArray] = useState([]);
   const [analyzedResult, setAnalyzedResult] = useState<any>(null);

@@ -19,6 +19,23 @@ function App() {
   return (
     <>
       <Navbar />
+      <div className='appInfo'>
+        <p>
+          This project focuses on Aspect Based Sentiment Analysis of product
+          reviews. It allows users to input a server URL and choose between
+          analyzing CSV files or individual reviews.
+        </p>
+        <br />
+        <p>
+          CLick on CSV button to analyze product reviews. A csv file can only be
+          chosen with a cloumn header of <b>"review_text"</b> in it. Then to
+          view it click on IMPORT button and then click on ANALYZE button to
+          view the analyzed result. Follwing table and bar chart is shown as the
+          sample result of the analysis.
+        </p>
+        <br />
+        <p>To analyze individual review click on Review button above.</p>
+      </div>
       <form className='inputURLForm'>
         <input
           type='text'
