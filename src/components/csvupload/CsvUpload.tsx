@@ -1,5 +1,6 @@
 import { log } from 'console';
 import { useState } from 'react';
+import Pos_Aspect from '../../assets/images/20_Pos_Aspects.jpg';
 
 export default function CsvUpload(serverURL: any) {
   const [file, setFile] = useState();
@@ -237,7 +238,7 @@ export default function CsvUpload(serverURL: any) {
           </table>
         </div>
         <div className='imageSection'>
-          <img src="../../assets/images/20_Pos_Aspects.jpg" alt="Positive Aspects" />
+          <img src={Pos_Aspect} alt="Positive Aspects" />
         </div>
       </div>
     </div>
