@@ -1,7 +1,7 @@
 import { log } from 'console';
 import { useState } from 'react';
 
-export default function CsvUpload(serverURL:any) {
+export default function CsvUpload(serverURL: any) {
   const [file, setFile] = useState();
   const [array, setArray] = useState([]);
   const [analyzedResult, setAnalyzedResult] = useState<any>(null);
@@ -113,128 +113,132 @@ export default function CsvUpload(serverURL:any) {
           <pre>{JSON.stringify(analyzedResult, null, 2)}</pre>
         </div>
       )} */}
-
-      <div className="percentTable">
-        <table className='dataframe'>
-          <thead>
-            <tr className='text-right'>
-              <th></th>
-              <th>Positive</th>
-              <th>Neutral</th>
-              <th>Negative</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>Accessories</th>
-              <td>2.50</td>
-              <td>2.380952</td>
-              <td>8.333333</td>
-            </tr>
-            <tr>
-              <th>Audio/Speaker</th>
-              <td>12.50</td>
-              <td>7.142857</td>
-              <td>0.000000</td>
-            </tr>
-            <tr>
-              <th>BIOS</th>
-              <td>7.50</td>
-              <td>2.380952</td>
-              <td>0.000000</td>
-            </tr>
-            <tr>
-              <th>CPU</th>
-              <td>1.25</td>
-              <td>2.380952</td>
-              <td>0.000000</td>
-            </tr>
-            <tr>
-              <th>Cooling</th>
-              <td>6.25</td>
-              <td>0.000000</td>
-              <td>0.000000</td>
-            </tr>
-            <tr>
-              <th>Customer Support</th>
-              <td>3.75</td>
-              <td>7.142857</td>
-              <td>33.333333</td>
-            </tr>
-            <tr>
-              <th>Graphics</th>
-              <td>2.50</td>
-              <td>2.380952</td>
-              <td>16.666667</td>
-            </tr>
-            <tr>
-              <th>Keyboard / Touchpad</th>
-              <td>5.00</td>
-              <td>2.380952</td>
-              <td>8.333333</td>
-            </tr>
-            <tr>
-              <th>Ports</th>
-              <td>1.25</td>
-              <td>7.142857</td>
-              <td>8.333333</td>
-            </tr>
-            <tr>
-              <th>Power/battery</th>
-              <td>3.75</td>
-              <td>11.904762</td>
-              <td>8.333333</td>
-            </tr>
-            <tr>
-              <th>Price</th>
-              <td>2.50</td>
-              <td>4.761905</td>
-              <td>8.333333</td>
-            </tr>
-            <tr>
-              <th>Productivity</th>
-              <td>22.50</td>
-              <td>4.761905</td>
-              <td>8.333333</td>
-            </tr>
-            <tr>
-              <th>RAM / Memory</th>
-              <td>5.00</td>
-              <td>9.523810</td>
-              <td>0.000000</td>
-            </tr>
-            <tr>
-              <th>Screen</th>
-              <td>7.50</td>
-              <td>4.761905</td>
-              <td>0.000000</td>
-            </tr>
-            <tr>
-              <th>Security</th>
-              <td>2.50</td>
-              <td>7.142857</td>
-              <td>0.000000</td>
-            </tr>
-            <tr>
-              <th>Shipping / Packaging</th>
-              <td>3.75</td>
-              <td>4.761905</td>
-              <td>0.000000</td>
-            </tr>
-            <tr>
-              <th>Software</th>
-              <td>7.50</td>
-              <td>2.380952</td>
-              <td>0.000000</td>
-            </tr>
-            <tr>
-              <th>Webcam / Video Streaming</th>
-              <td>2.50</td>
-              <td>16.666667</td>
-              <td>0.000000</td>
-            </tr>
-          </tbody>
-        </table>
+      <div className='analyzedData'>
+        <div className='percentTable'>
+          <table className='dataframe'>
+            <thead>
+              <tr className='text-right'>
+                <th></th>
+                <th>Positive</th>
+                <th>Neutral</th>
+                <th>Negative</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Accessories</th>
+                <td>2.50</td>
+                <td>2.380952</td>
+                <td>8.333333</td>
+              </tr>
+              <tr>
+                <th>Audio/Speaker</th>
+                <td>12.50</td>
+                <td>7.142857</td>
+                <td>0.000000</td>
+              </tr>
+              <tr>
+                <th>BIOS</th>
+                <td>7.50</td>
+                <td>2.380952</td>
+                <td>0.000000</td>
+              </tr>
+              <tr>
+                <th>CPU</th>
+                <td>1.25</td>
+                <td>2.380952</td>
+                <td>0.000000</td>
+              </tr>
+              <tr>
+                <th>Cooling</th>
+                <td>6.25</td>
+                <td>0.000000</td>
+                <td>0.000000</td>
+              </tr>
+              <tr>
+                <th>Customer Support</th>
+                <td>3.75</td>
+                <td>7.142857</td>
+                <td>33.333333</td>
+              </tr>
+              <tr>
+                <th>Graphics</th>
+                <td>2.50</td>
+                <td>2.380952</td>
+                <td>16.666667</td>
+              </tr>
+              <tr>
+                <th>Keyboard / Touchpad</th>
+                <td>5.00</td>
+                <td>2.380952</td>
+                <td>8.333333</td>
+              </tr>
+              <tr>
+                <th>Ports</th>
+                <td>1.25</td>
+                <td>7.142857</td>
+                <td>8.333333</td>
+              </tr>
+              <tr>
+                <th>Power/battery</th>
+                <td>3.75</td>
+                <td>11.904762</td>
+                <td>8.333333</td>
+              </tr>
+              <tr>
+                <th>Price</th>
+                <td>2.50</td>
+                <td>4.761905</td>
+                <td>8.333333</td>
+              </tr>
+              <tr>
+                <th>Productivity</th>
+                <td>22.50</td>
+                <td>4.761905</td>
+                <td>8.333333</td>
+              </tr>
+              <tr>
+                <th>RAM / Memory</th>
+                <td>5.00</td>
+                <td>9.523810</td>
+                <td>0.000000</td>
+              </tr>
+              <tr>
+                <th>Screen</th>
+                <td>7.50</td>
+                <td>4.761905</td>
+                <td>0.000000</td>
+              </tr>
+              <tr>
+                <th>Security</th>
+                <td>2.50</td>
+                <td>7.142857</td>
+                <td>0.000000</td>
+              </tr>
+              <tr>
+                <th>Shipping / Packaging</th>
+                <td>3.75</td>
+                <td>4.761905</td>
+                <td>0.000000</td>
+              </tr>
+              <tr>
+                <th>Software</th>
+                <td>7.50</td>
+                <td>2.380952</td>
+                <td>0.000000</td>
+              </tr>
+              <tr>
+                <th>Webcam / Video Streaming</th>
+                <td>2.50</td>
+                <td>16.666667</td>
+                <td>0.000000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className='imageSection'>
+          <img src="../../assets/images/20_Pos_Aspects.jpg" alt="Positive Aspects" />
+        </div>
       </div>
     </div>
   );
