@@ -1,0 +1,1392 @@
+{
+    "Accessories": [
+        {
+            "back cover": [
+                "Neutral"
+            ]
+        },
+        {
+            "case": [
+                "Positive"
+            ]
+        }
+    ],
+    "Audio/Speaker": [
+        {
+            "sounding speakers": [
+                "Neutral"
+            ]
+        },
+        {
+            "sounded": [
+                "Positive"
+            ]
+        },
+        {
+            "nice sounding": [
+                "Neutral"
+            ]
+        },
+        {
+            "webcam": [
+                "Neutral"
+            ]
+        },
+        {
+            "webcams": [
+                "Neutral"
+            ]
+        }
+    ],
+    "BIOS": [
+        {
+            "toshiba laptop running": [
+                "Neutral"
+            ]
+        },
+        {
+            "loading speed": [
+                "Positive"
+            ]
+        },
+        {
+            "operating system": [
+                "Positive"
+            ]
+        },
+        {
+            "boot speed": [
+                "Positive"
+            ]
+        },
+        {
+            "hardware": [
+                "Positive"
+            ]
+        },
+        {
+            "graphics software": [
+                "Neutral"
+            ]
+        },
+        {
+            "compatibility": [
+                "Positive"
+            ]
+        },
+        {
+            "hard core gaming machine": [
+                "Neutral"
+            ]
+        },
+        {
+            "windows 10": [
+                "Neutral"
+            ]
+        },
+        {
+            "upgrade ram": [
+                "Positive"
+            ]
+        },
+        {
+            "inside upgrades": [
+                "Positive"
+            ]
+        },
+        {
+            "pc games": [
+                "Neutral"
+            ]
+        },
+        {
+            "will install": [
+                "Neutral"
+            ]
+        },
+        {
+            "format": [
+                "Positive"
+            ]
+        },
+        {
+            "installed": [
+                "Positive"
+            ]
+        },
+        {
+            "recognized": [
+                "Neutral"
+            ]
+        },
+        {
+            "it boots up in": [
+                "Positive"
+            ]
+        },
+        {
+            "daily driver": [
+                "Neutral"
+            ]
+        },
+        {
+            "distros": [
+                "Positive"
+            ]
+        },
+        {
+            "win": [
+                "Neutral"
+            ]
+        },
+        {
+            "linux": [
+                "Positive"
+            ]
+        },
+        {
+            "drivers": [
+                "Neutral"
+            ]
+        },
+        {
+            "operating system": [
+                "Positive"
+            ]
+        }
+    ],
+    "Cooling": [
+        {
+            "refresh speed": [
+                "Positive"
+            ]
+        },
+        {
+            "performance mode": [
+                "Neutral"
+            ]
+        },
+        {
+            "digital life": [
+                "Negative"
+            ]
+        },
+        {
+            "runs win11": [
+                "Neutral"
+            ]
+        },
+        {
+            "fast": [
+                "Positive"
+            ]
+        },
+        {
+            "rate": [
+                "Positive"
+            ]
+        },
+        {
+            "consumption a": [
+                "Positive"
+            ]
+        },
+        {
+            "average battery": [
+                "Neutral"
+            ]
+        },
+        {
+            "tasks": [
+                "Neutral"
+            ]
+        },
+        {
+            "processing speeds": [
+                "Positive"
+            ]
+        },
+        {
+            "increase the drive": [
+                "Neutral"
+            ]
+        },
+        {
+            "fans": [
+                "Positive",
+                "Negative",
+                "Neutral"
+            ]
+        }
+    ],
+    "Customer Support": [
+        {
+            "online multiplayer games": [
+                "Positive"
+            ]
+        },
+        {
+            "experience": [
+                "Positive"
+            ]
+        },
+        {
+            "google": [
+                "Positive"
+            ]
+        },
+        {
+            "updates in": [
+                "Positive"
+            ]
+        },
+        {
+            "uninstalled": [
+                "Negative"
+            ]
+        },
+        {
+            "microsoft 365 trial programs": [
+                "Neutral"
+            ]
+        },
+        {
+            "microsoft 365 trial programs": [
+                "Neutral"
+            ]
+        },
+        {
+            "microsoft 365 trial programs": [
+                "Neutral"
+            ]
+        },
+        {
+            "mcafee": [
+                "Negative"
+            ]
+        },
+        {
+            "tech": [
+                "Positive"
+            ]
+        },
+        {
+            "apps": [
+                "Neutral",
+                "Neutral"
+            ]
+        },
+        {
+            "chrome": [
+                "Negative"
+            ]
+        },
+        {
+            "novice": [
+                "Neutral"
+            ]
+        },
+        {
+            "gaming app": [
+                "Negative"
+            ]
+        },
+        {
+            "updating": [
+                "Positive"
+            ]
+        },
+        {
+            "user": [
+                "Positive"
+            ]
+        },
+        {
+            "registry": [
+                "Neutral"
+            ]
+        },
+        {
+            "first update": [
+                "Positive"
+            ]
+        },
+        {
+            "real time strategy games": [
+                "Neutral"
+            ]
+        },
+        {
+            "bloatware": [
+                "Neutral"
+            ]
+        },
+        {
+            "m 2 ssd": [
+                "Neutral"
+            ]
+        },
+        {
+            "map games": [
+                "Neutral"
+            ]
+        },
+        {
+            "music production": [
+                "Neutral"
+            ]
+        }
+    ],
+    "GPU": [
+        {
+            "nvidia geforce rtx graphics card": [
+                "Positive"
+            ]
+        },
+        {
+            "geforce rtx 2050 graphics": [
+                "Positive"
+            ]
+        },
+        {
+            "intel": [
+                "Neutral"
+            ]
+        },
+        {
+            "hard core gaming machine": [
+                "Neutral"
+            ]
+        },
+        {
+            "i7": [
+                "Neutral"
+            ]
+        },
+        {
+            "processor and": [
+                "Positive"
+            ]
+        },
+        {
+            "tuf": [
+                "Positive"
+            ]
+        },
+        {
+            "turbo mode": [
+                "Neutral"
+            ]
+        },
+        {
+            "main rig": [
+                "Neutral"
+            ]
+        },
+        {
+            "5 max settings": [
+                "Positive"
+            ]
+        },
+        {
+            "i5 512gb": [
+                "Neutral"
+            ]
+        },
+        {
+            "1650": [
+                "Neutral"
+            ]
+        },
+        {
+            "stock memory": [
+                "Neutral"
+            ]
+        },
+        {
+            "gpu": [
+                "Neutral"
+            ]
+        },
+        {
+            "cpu": [
+                "Neutral"
+            ]
+        },
+        {
+            "memory storage c drive": [
+                "Negative"
+            ]
+        },
+        {
+            "cc including gameplay mods": [
+                "Neutral"
+            ]
+        },
+        {
+            "mid scale gaming imo": [
+                "Positive"
+            ]
+        },
+        {
+            "apex": [
+                "Neutral"
+            ]
+        }
+    ],
+    "Graphics": [
+        {
+            "dual cooling system": [
+                "Positive"
+            ]
+        },
+        {
+            "video games": [
+                "Neutral"
+            ]
+        },
+        {
+            "video editing software": [
+                "Neutral"
+            ]
+        },
+        {
+            "photoshop": [
+                "Neutral"
+            ]
+        },
+        {
+            "multimedia consumption": [
+                "Positive"
+            ]
+        },
+        {
+            "processing speeds": [
+                "Positive"
+            ]
+        },
+        {
+            "digital life": [
+                "Negative"
+            ]
+        },
+        {
+            "3d printer": [
+                "Positive"
+            ]
+        },
+        {
+            "secondary drive slot": [
+                "Neutral"
+            ]
+        },
+        {
+            "studio taking": [
+                "Neutral"
+            ]
+        },
+        {
+            "main rig": [
+                "Neutral"
+            ]
+        },
+        {
+            "single zone": [
+                "Neutral"
+            ]
+        },
+        {
+            "registry editor": [
+                "Neutral"
+            ]
+        },
+        {
+            "basic": [
+                "Neutral"
+            ]
+        },
+        {
+            "dvd drive": [
+                "Neutral"
+            ]
+        },
+        {
+            "integrated": [
+                "Neutral"
+            ]
+        },
+        {
+            "dedicated": [
+                "Neutral"
+            ]
+        },
+        {
+            "music production": [
+                "Neutral"
+            ]
+        }
+    ],
+    "Keyboard / Touchpad": [
+        {
+            "backlit keys": [
+                "Positive"
+            ]
+        },
+        {
+            "numbers keyboard": [
+                "Positive"
+            ]
+        },
+        {
+            "screen quality": [
+                "Neutral"
+            ]
+        },
+        {
+            "backlighting adds a cool factor": [
+                "Positive"
+            ]
+        },
+        {
+            "lighting": [
+                "Positive"
+            ]
+        },
+        {
+            "pulsing lights": [
+                "Neutral"
+            ]
+        },
+        {
+            "lights they": [
+                "Positive"
+            ]
+        },
+        {
+            "membrane": [
+                "Negative"
+            ]
+        },
+        {
+            "strobe": [
+                "Neutral"
+            ]
+        },
+        {
+            "keys": [
+                "Positive",
+                "Neutral",
+                "Positive"
+            ]
+        },
+        {
+            "trackpad": [
+                "Positive"
+            ]
+        },
+        {
+            "touch screen": [
+                "Positive"
+            ]
+        },
+        {
+            "led power": [
+                "Positive"
+            ]
+        },
+        {
+            "backlights": [
+                "Positive"
+            ]
+        },
+        {
+            "volume button": [
+                "Negative"
+            ]
+        },
+        {
+            "backlight keyboard": [
+                "Neutral"
+            ]
+        },
+        {
+            "light is": [
+                "Neutral"
+            ]
+        },
+        {
+            "brightness": [
+                "Neutral"
+            ]
+        },
+        {
+            "track pad": [
+                "Neutral"
+            ]
+        },
+        {
+            "key input": [
+                "Neutral"
+            ]
+        },
+        {
+            "white": [
+                "Neutral"
+            ]
+        },
+        {
+            "volume button": [
+                "Negative"
+            ]
+        },
+        {
+            "clickable mouse pad": [
+                "Neutral"
+            ]
+        },
+        {
+            "clickable mouse pad": [
+                "Neutral"
+            ]
+        }
+    ],
+    "Motherboard": [
+        {
+            "inch": [
+                "Positive"
+            ]
+        },
+        {
+            "slot": [
+                "Neutral"
+            ]
+        },
+        {
+            "slots": [
+                "Neutral"
+            ]
+        },
+        {
+            "space": [
+                "Negative"
+            ]
+        },
+        {
+            "storage room": [
+                "Positive"
+            ]
+        }
+    ],
+    "Portability": [
+        {
+            "screen quality": [
+                "Neutral"
+            ]
+        },
+        {
+            "aluminum chassis": [
+                "Positive"
+            ]
+        },
+        {
+            "design": [
+                "Positive"
+            ]
+        },
+        {
+            "quality construction": [
+                "Positive"
+            ]
+        },
+        {
+            "feel": [
+                "Positive"
+            ]
+        },
+        {
+            "sharp and vibrant": [
+                "Positive"
+            ]
+        },
+        {
+            "comfortable keyboard": [
+                "Positive"
+            ]
+        },
+        {
+            "performance vibrant display": [
+                "Neutral"
+            ]
+        },
+        {
+            "look": [
+                "Positive"
+            ]
+        },
+        {
+            "clickable mouse pad": [
+                "Neutral"
+            ]
+        },
+        {
+            "finishing": [
+                "Neutral"
+            ]
+        },
+        {
+            "like the base they give": [
+                "Neutral"
+            ]
+        },
+        {
+            "right there": [
+                "Neutral"
+            ]
+        },
+        {
+            "surface": [
+                "Neutral"
+            ]
+        },
+        {
+            "nice sounding": [
+                "Neutral"
+            ]
+        },
+        {
+            "big": [
+                "Neutral"
+            ]
+        },
+        {
+            "nicer": [
+                "Neutral"
+            ]
+        },
+        {
+            "real time strategy games": [
+                "Neutral"
+            ]
+        },
+        {
+            "smooth": [
+                "Neutral"
+            ]
+        },
+        {
+            "weight": [
+                "Positive"
+            ]
+        }
+    ],
+    "Ports": [
+        {
+            "usb thunderbolt": [
+                "Positive"
+            ]
+        },
+        {
+            "hdmi": [
+                "Positive"
+            ]
+        },
+        {
+            "power profiles": [
+                "Neutral"
+            ]
+        },
+        {
+            "32gb ram kit": [
+                "Neutral"
+            ]
+        },
+        {
+            "external removable battery": [
+                "Positive"
+            ]
+        },
+        {
+            "8gbram": [
+                "Neutral"
+            ]
+        },
+        {
+            "usb thunderbolt": [
+                "Positive"
+            ]
+        },
+        {
+            "port selection": [
+                "Neutral"
+            ]
+        },
+        {
+            "adapter": [
+                "Neutral"
+            ]
+        }
+    ],
+    "Power/battery": [
+        {
+            "start up battery": [
+                "Positive"
+            ]
+        },
+        {
+            "year": [
+                "Positive"
+            ]
+        },
+        {
+            "constantly": [
+                "Positive"
+            ]
+        },
+        {
+            "laptop remains relatively": [
+                "Positive"
+            ]
+        },
+        {
+            "day": [
+                "Positive"
+            ]
+        },
+        {
+            "nothing": [
+                "Neutral"
+            ]
+        },
+        {
+            "side firing": [
+                "Neutral"
+            ]
+        },
+        {
+            "it down": [
+                "Neutral"
+            ]
+        },
+        {
+            "single zone": [
+                "Neutral"
+            ]
+        },
+        {
+            "real time strategy games": [
+                "Neutral"
+            ]
+        },
+        {
+            "still": [
+                "Neutral"
+            ]
+        },
+        {
+            "turning": [
+                "Neutral"
+            ]
+        },
+        {
+            "finally": [
+                "Neutral"
+            ]
+        },
+        {
+            "first": [
+                "Neutral"
+            ]
+        },
+        {
+            "night": [
+                "Neutral"
+            ]
+        },
+        {
+            "shutting": [
+                "Negative"
+            ]
+        },
+        {
+            "10 seconds": [
+                "Negative"
+            ]
+        },
+        {
+            "noticed": [
+                "Neutral"
+            ]
+        },
+        {
+            "buttons switches": [
+                "Neutral"
+            ]
+        },
+        {
+            "everything right": [
+                "Neutral"
+            ]
+        },
+        {
+            "hit": [
+                "Neutral"
+            ]
+        },
+        {
+            "working": [
+                "Neutral"
+            ]
+        },
+        {
+            "turn based": [
+                "Neutral"
+            ]
+        },
+        {
+            "death stranding": [
+                "Neutral"
+            ]
+        },
+        {
+            "start up battery": [
+                "Positive"
+            ]
+        },
+        {
+            "move": [
+                "Neutral"
+            ]
+        },
+        {
+            "2hrs": [
+                "Neutral"
+            ]
+        },
+        {
+            "normally am": [
+                "Neutral"
+            ]
+        }
+    ],
+    "Price": [
+        {
+            "price of": [
+                "Neutral"
+            ]
+        },
+        {
+            "budget": [
+                "Neutral"
+            ]
+        },
+        {
+            "built into": [
+                "Neutral"
+            ]
+        },
+        {
+            "exceptionally": [
+                "Positive"
+            ]
+        },
+        {
+            "quality efficient cooling": [
+                "Positive"
+            ]
+        },
+        {
+            "build": [
+                "Positive"
+            ]
+        },
+        {
+            "laptop remains relatively": [
+                "Positive"
+            ]
+        },
+        {
+            "components": [
+                "Positive"
+            ]
+        },
+        {
+            "value": [
+                "Positive",
+                "Positive"
+            ]
+        },
+        {
+            "specs": [
+                "Positive",
+                "Positive",
+                "Positive"
+            ]
+        },
+        {
+            "comparison": [
+                "Neutral"
+            ]
+        },
+        {
+            "comparing": [
+                "Neutral"
+            ]
+        },
+        {
+            "bang": [
+                "Positive"
+            ]
+        },
+        {
+            "mid scale gaming imo": [
+                "Positive"
+            ]
+        }
+    ],
+    "Productivity": [
+        {
+            "use this": [
+                "Neutral"
+            ]
+        },
+        {
+            "files": [
+                "Positive"
+            ]
+        },
+        {
+            "household and has": [
+                "Positive"
+            ]
+        },
+        {
+            "sharing": [
+                "Positive"
+            ]
+        },
+        {
+            "home screen": [
+                "Neutral"
+            ]
+        },
+        {
+            "join": [
+                "Neutral"
+            ]
+        },
+        {
+            "backup": [
+                "Positive"
+            ]
+        },
+        {
+            "cloud games": [
+                "Positive"
+            ]
+        },
+        {
+            "3d printer": [
+                "Positive"
+            ]
+        }
+    ],
+    "Screen": [
+        {
+            "f15": [
+                "Neutral"
+            ]
+        },
+        {
+            "rgb backlighting": [
+                "Positive"
+            ]
+        },
+        {
+            "refresh speed": [
+                "Positive"
+            ]
+        },
+        {
+            "displays": [
+                "Neutral"
+            ]
+        },
+        {
+            "performance vibrant display": [
+                "Neutral"
+            ]
+        },
+        {
+            "connectivity": [
+                "Neutral"
+            ]
+        },
+        {
+            "sound is": [
+                "Neutral"
+            ]
+        },
+        {
+            "lcd": [
+                "Neutral"
+            ]
+        },
+        {
+            "video playback": [
+                "Positive"
+            ]
+        },
+        {
+            "performance external monitor": [
+                "Neutral"
+            ]
+        },
+        {
+            "ips": [
+                "Neutral"
+            ]
+        },
+        {
+            "key input": [
+                "Neutral"
+            ]
+        },
+        {
+            "mid scale gaming imo": [
+                "Positive"
+            ]
+        },
+        {
+            "audio": [
+                "Positive"
+            ]
+        }
+    ],
+    "Shipping / Packaging": [
+        {
+            "come": [
+                "Positive",
+                "Neutral"
+            ]
+        },
+        {
+            "caught": [
+                "Positive"
+            ]
+        },
+        {
+            "can handle": [
+                "Positive"
+            ]
+        },
+        {
+            "carried around": [
+                "Positive"
+            ]
+        },
+        {
+            "way": [
+                "Positive"
+            ]
+        },
+        {
+            "make": [
+                "Positive"
+            ]
+        },
+        {
+            "arm and": [
+                "Neutral"
+            ]
+        },
+        {
+            "back vents": [
+                "Negative"
+            ]
+        },
+        {
+            "right there": [
+                "Neutral"
+            ]
+        },
+        {
+            "wafer": [
+                "Negative"
+            ]
+        },
+        {
+            "8gb stick": [
+                "Neutral"
+            ]
+        },
+        {
+            "ram sticks": [
+                "Neutral"
+            ]
+        },
+        {
+            "back porch": [
+                "Neutral"
+            ]
+        },
+        {
+            "hard drive": [
+                "Positive"
+            ]
+        },
+        {
+            "eldon ring": [
+                "Positive"
+            ]
+        },
+        {
+            "deck they": [
+                "Negative"
+            ]
+        },
+        {
+            "lid": [
+                "Neutral"
+            ]
+        },
+        {
+            "easily": [
+                "Neutral"
+            ]
+        },
+        {
+            "hidden": [
+                "Neutral"
+            ]
+        },
+        {
+            "hidden screws": [
+                "Neutral"
+            ]
+        },
+        {
+            "along with": [
+                "Neutral"
+            ]
+        },
+        {
+            "pick": [
+                "Neutral"
+            ]
+        },
+        {
+            "without": [
+                "Neutral"
+            ]
+        },
+        {
+            "right left track pad": [
+                "Neutral"
+            ]
+        },
+        {
+            "facing up": [
+                "Positive"
+            ]
+        },
+        {
+            "inside": [
+                "Neutral"
+            ]
+        },
+        {
+            "nice open spot": [
+                "Neutral"
+            ]
+        },
+        {
+            "side": [
+                "Neutral"
+            ]
+        },
+        {
+            "overtime": [
+                "Neutral"
+            ]
+        },
+        {
+            "nice open spot": [
+                "Neutral"
+            ]
+        },
+        {
+            "external removable battery": [
+                "Positive"
+            ]
+        },
+        {
+            "remove": [
+                "Neutral"
+            ]
+        },
+        {
+            "packs": [
+                "Neutral"
+            ]
+        }
+    ],
+    "Storage": [
+        {
+            "storage room": [
+                "Positive"
+            ]
+        }
+    ],
+    "Webcam / Video Streaming": [
+        {
+            "awesome": [
+                "Positive"
+            ]
+        },
+        {
+            "outstanding": [
+                "Positive"
+            ]
+        },
+        {
+            "fantastic": [
+                "Positive"
+            ]
+        },
+        {
+            "decent": [
+                "Positive"
+            ]
+        },
+        {
+            "favorite games": [
+                "Positive"
+            ]
+        },
+        {
+            "an excellent": [
+                "Positive"
+            ]
+        },
+        {
+            "superb": [
+                "Positive"
+            ]
+        },
+        {
+            "1 tb solid state drive": [
+                "Neutral"
+            ]
+        },
+        {
+            "love it": [
+                "Positive"
+            ]
+        },
+        {
+            "it likes": [
+                "Neutral"
+            ]
+        }
+    ]
+}

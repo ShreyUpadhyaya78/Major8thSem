@@ -36,3 +36,106 @@
     transform: rotate(360deg);
   }
 }
+input::file-selector-button {
+  font-weight: bold;
+  color: white;
+  /* padding: 0.4rem; */
+  padding-bottom: 0.4rem;
+  margin: 0.5rem;
+  border: 0;
+  border-radius: 3px;
+  background-color: rgb(40, 192, 192);
+  cursor: pointer;
+  transition: color 150ms;
+}
+input::file-selector-button:hover {
+  background-color: rgb(53, 145, 145);
+}
+
+table,
+th,
+td {
+  border: 2px solid rgb(233, 225, 225);
+}
+th {
+  background-color: #caf4ff;
+}
+.csvTableDisplay {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  max-height: 450px;
+  overflow-y: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+.inputURLForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0.5rem;
+  width: 50%;
+  margin-top: 1rem;
+}
+.inputURL {
+  border: 2px solid black;
+  border-radius: 4px;
+  min-width: 70%;
+  width: fit-content;
+}
+.reviewPost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0.5rem;
+  width: 70%;
+  margin-top: 1rem;
+}
+.reviewInputArea {
+  border: 2px solid black;
+  border-radius: 4px;
+  min-width: 70%;
+  width: fit-content;
+  margin-top: 0.5rem;
+}
+.reviewPostButton {
+  cursor: pointer;
+  margin-left: -0.04rem;
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0.5rem;
+  width: 50%;
+  margin-top: 1rem;
+}
+.csvUploadBtn {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 6rem;
+  border-right: 1px solid white;
+}
+.reviewUploadBtn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 6rem;
+  border-left: 1px solid white;
+}
+.csvUploadBtn,
+.reviewUploadBtn {
+  color: black;
+  font-weight: 500;
+}
+.csvFileInput {
+  height: fit-content;
+}
+.dataframe {
+  margin-bottom: 1.5rem;
+  margin-left: 1.5rem;
+}
