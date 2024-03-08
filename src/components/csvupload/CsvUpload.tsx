@@ -47,7 +47,7 @@ export default function CsvUpload(serverURL:any) {
       const formData = new FormData();
       formData.append('csv_file', file);
 
-      fetch('https://42a7-34-171-150-7.ngrok-free.app/process_csv', {
+      fetch((serverURL+'/process_csv'), {
         method: 'POST',
         body: formData,
       })

@@ -5,12 +5,13 @@ import CsvUpload from './components/csvupload/CsvUpload';
 import ReviewUpload from './components/reviewupload/ReviewUpload';
 
 function App() {
-  const [serverURL, setServerURL] = useState(''); // Declare serverURL state variable
+  // const [serverURL, setServerURL] = useState(''); // Declare serverURL state variable
+  const serverURL = 'https://46e5-34-91-108-16.ngrok-free.app';
   const [activeButton, setActiveButton] = useState(''); // Declare activeButton state variable
 
-  const handleURLChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setServerURL(event.target.value); // Update serverURL state variable
-  };
+  // const handleURLChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  //   setServerURL(event.target.value); // Update serverURL state variable
+  // };
 
   const handleButtonClick = (button: string) => {
     setActiveButton(button); // Update activeButton state variable
@@ -19,7 +20,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <form className='inputURLForm'>
+      {/* <form className='inputURLForm'>
         <input
           type='text'
           placeholder='Put the server URL here'
@@ -27,7 +28,7 @@ function App() {
           value={serverURL} // Bind input value to serverURL state variable
           onChange={handleURLChange} // Call handleURLChange when input value changes
         />
-      </form>
+      </form> */}
       <div className='flex justify-center mt-4'>
         <button
           className={`${

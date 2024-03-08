@@ -10,17 +10,22 @@ const ReviewUpoad: React.FC<ReviewUploadProps> = ({ serverURL }) => {
     try {
       const res = await fetch(serverURL + '/process_text', {
         method: 'POST',
-        body: JSON.stringify({ text }),
+        body: JSON.stringify({ review: text }),
+        // body: JSON.stringify({ text }),
         headers: {
           'Content-Type': 'application/json',
         },
       });
       const data = await res.json();
-      setResponse(JSON.stringify(data));
+      setResponse(data);
     } catch (error) {
       console.error(error);
     }
   };
+  const dataKeys: string[] = Object.keys(response);
+  const dataValues: string[] = Object.values(response);
+
+  // Extract keys and values
 
   return (
     <div className='reviewPost'>
@@ -38,7 +43,26 @@ const ReviewUpoad: React.FC<ReviewUploadProps> = ({ serverURL }) => {
       >
         POST
       </button>
-      <div>{response}</div>
+      {response && (
+        <div className='displayReviewAnalysis mt-4'>
+          <table style={{ width: '100%' }}>
+            <thead>
+              <tr>
+                <th>Aspect</th>
+                <th>Sentiment</th>
+              </tr>
+            </thead>
+            <tbody>
+              {dataKeys.map((key, index) => (
+                <tr key={index}>
+                  <td>{key}</td>
+                  <td>{dataValues[index]}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
     </div>
   );
 };
