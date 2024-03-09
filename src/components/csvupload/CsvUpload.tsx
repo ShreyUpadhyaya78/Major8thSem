@@ -47,7 +47,7 @@ export default function CsvUpload(serverURL:any) {
       const formData = new FormData();
       formData.append('csv_file', file);
 
-      fetch((serverURL+'/process_csv'), {
+      fetch('https://2068-34-83-113-38.ngrok-free.app' + '/process_csv', {
         method: 'POST',
         body: formData,
       })
@@ -107,12 +107,12 @@ export default function CsvUpload(serverURL:any) {
         ANALYZE
       </button>
 
-      {/* {analyzedResult && (
+      {analyzedResult && (
         <div>
           <h2>Analyzed Result:</h2>
           <pre>{JSON.stringify(analyzedResult, null, 2)}</pre>
         </div>
-      )} */}
+      )}
 
       <div className="percentTable">
         <table className='dataframe'>
