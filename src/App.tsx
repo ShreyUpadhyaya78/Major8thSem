@@ -6,7 +6,7 @@ import ReviewUpload from './components/reviewupload/ReviewUpload';
 
 function App() {
   // const [serverURL, setServerURL] = useState(''); // Declare serverURL state variable
-  const serverURL = 'https://46e5-34-91-108-16.ngrok-free.app';
+  const serverURL = 'https://a8a9-34-16-132-118.ngrok-free.app';
   const [activeButton, setActiveButton] = useState(''); // Declare activeButton state variable
 
   // const handleURLChange = (event: React.ChangeEvent<HTMLInputElement>) => {
