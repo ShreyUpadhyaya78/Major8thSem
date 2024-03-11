@@ -3,10 +3,10 @@ import { useState } from 'react'; // Import useState hook
 import Navbar from './components/navbar/Navbar'; // Import Navbar component
 import CsvUpload from './components/csvupload/CsvUpload';
 import ReviewUpload from './components/reviewupload/ReviewUpload';
-
 function App() {
   // const [serverURL, setServerURL] = useState(''); // Declare serverURL state variable
-  const serverURL = 'https://2068-34-83-113-38.ngrok-free.app';
+  const serverURL =
+    'https://3450-2405-acc0-1207-534f-dc36-d5f-c149-deb9.ngrok-free.app';
   const [activeButton, setActiveButton] = useState(''); // Declare activeButton state variable
 
   // const handleURLChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -16,7 +16,6 @@ function App() {
   const handleButtonClick = (button: string) => {
     setActiveButton(button); // Update activeButton state variable
   };
-
   return (
     <>
       <Navbar />
@@ -53,6 +52,7 @@ function App() {
       {/* Show CsvUpload if activeButton is 'csv' */}
       {activeButton === 'review' && <ReviewUpload serverURL={serverURL} />}{' '}
       {/* Show ReviewUpload if activeButton is 'review' */}
+      
     </>
   );
 }

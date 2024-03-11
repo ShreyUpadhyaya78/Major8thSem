@@ -1,11 +1,11 @@
-import { log } from 'console';
-import { useState } from 'react';
+import { useState} from 'react';
 
 export default function CsvUpload(serverURL:any) {
   const [file, setFile] = useState();
   const [array, setArray] = useState([]);
   const [analyzedResult, setAnalyzedResult] = useState<any>(null);
-
+  const positivePath =
+    'https://3450-2405-acc0-1207-534f-dc36-d5f-c149-deb9.ngrok-free.app/files/positive_bar_chart.png';
   const fileReader = new FileReader();
 
   const handleOnChange = (e: any) => {
@@ -47,15 +47,21 @@ export default function CsvUpload(serverURL:any) {
       const formData = new FormData();
       formData.append('csv_file', file);
 
-      fetch('https://2068-34-83-113-38.ngrok-free.app' + '/process_csv', {
-        method: 'POST',
-        body: formData,
-      })
+      fetch(
+        'https://3450-2405-acc0-1207-534f-dc36-d5f-c149-deb9.ngrok-free.app' +
+          '/process_csv',
+        {
+          method: 'POST',
+          body: formData,
+        }
+      )
         .then((response) => response.json())
         .then((data) => setAnalyzedResult(data))
         .catch((error) => console.error(error));
     }
   };
+  
+  
   return (
     <div style={{ textAlign: 'center' }} className='mt-8'>
       <form>
@@ -113,8 +119,16 @@ export default function CsvUpload(serverURL:any) {
           <pre>{JSON.stringify(analyzedResult, null, 2)}</pre>
         </div>
       )}
-
-      <div className="percentTable">
+   
+      
+        <div>
+          <img
+            src={positivePath}
+            alt='Bar Chart'
+          />
+        </div>
+      
+      {/* <div className='percentTable'>
         <table className='dataframe'>
           <thead>
             <tr className='text-right'>
@@ -235,7 +249,7 @@ export default function CsvUpload(serverURL:any) {
             </tr>
           </tbody>
         </table>
-      </div>
+      </div> */}
     </div>
   );
 }

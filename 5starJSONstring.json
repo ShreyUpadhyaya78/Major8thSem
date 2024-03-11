@@ -1,0 +1,346 @@
+{
+  "Accessories": [
+    {
+      "set up": ["Positive", "Positive"]
+    },
+    {
+      "2": ["Neutral"]
+    },
+    {
+      "4": ["Negative"]
+    }
+  ],
+  "Audio/Speaker": [
+    {
+      "monitor": ["Positive"]
+    },
+    {
+      "webcam": ["Neutral", "Positive"]
+    },
+    {
+      "speakers": ["Positive", "Positive", "Positive"]
+    },
+    {
+      "screen resolution": ["Positive"]
+    },
+    {
+      "crisp": ["Neutral"]
+    },
+    {
+      "sound quality": ["Positive"]
+    },
+    {
+      "display": ["Positive", "Neutral"]
+    },
+    {
+      "contrast": ["Positive"]
+    },
+    {
+      "microphone": ["Positive"]
+    }
+  ],
+  "BIOS": [
+    {
+      "set up": ["Positive", "Positive"]
+    },
+    {
+      "use": ["Positive", "Positive", "Positive"]
+    },
+    {
+      "work": ["Positive"]
+    },
+    {
+      "setup": ["Neutral"]
+    }
+  ],
+  "CPU": [
+    {
+      "dell insp": ["Positive"]
+    },
+    {
+      "computer": ["Neutral"]
+    }
+  ],
+  "Cooling": [
+    {
+      "liquid retina": ["Positive"]
+    },
+    {
+      "apple box": ["Positive"]
+    },
+    {
+      "liquid retina": ["Positive"]
+    },
+    {
+      "macbook air": ["Positive"]
+    },
+    {
+      "macbook air": ["Positive"]
+    }
+  ],
+  "Customer Support": [
+    {
+      "windows": ["Neutral", "Positive", "Neutral"]
+    },
+    {
+      "updates": ["Positive"]
+    },
+    {
+      "mac air keyboard": ["Positive"]
+    },
+    {
+      "macos": ["Neutral"]
+    },
+    {
+      "software development": ["Negative"]
+    },
+    {
+      "migration assistant": ["Negative"]
+    },
+    {
+      "migration assistant": ["Negative"]
+    },
+    {
+      "driver": ["Negative"]
+    }
+  ],
+  "Graphics": [
+    {
+      "graphics": ["Positive"]
+    },
+    {
+      "open architecture": ["Neutral"]
+    },
+    {
+      "hardware": ["Positive", "Negative"]
+    },
+    {
+      "applications": ["Negative"]
+    }
+  ],
+  "Keyboard / Touchpad": [
+    {
+      "usability": ["Positive"]
+    },
+    {
+      "stability": ["Negative"]
+    },
+    {
+      "lower ram option": ["Positive"]
+    },
+    {
+      "feature": ["Neutral"]
+    },
+    {
+      "functionality": ["Positive"]
+    },
+    {
+      "function keys": ["Positive"]
+    }
+  ],
+  "Ports": [
+    {
+      "usb ports": ["Neutral"]
+    },
+    {
+      "external ssd": ["Neutral"]
+    },
+    {
+      "battery power": ["Positive"]
+    },
+    {
+      "wifi": ["Negative"]
+    },
+    {
+      "ethernet cable": ["Neutral"]
+    }
+  ],
+  "Power/battery": [
+    {
+      "cord": ["Neutral", "Neutral"]
+    },
+    {
+      "battery power": ["Positive"]
+    },
+    {
+      "magnetic charging": ["Positive"]
+    },
+    {
+      "ethernet cable": ["Neutral"]
+    },
+    {
+      "charge it": ["Positive"]
+    },
+    {
+      "wall outlets": ["Neutral"]
+    },
+    {
+      "wall outlets": ["Neutral"]
+    },
+    {
+      "wire": ["Negative"]
+    }
+  ],
+  "Price": [
+    {
+      "sale price": ["Positive"]
+    },
+    {
+      "sound quality": ["Positive"]
+    },
+    {
+      "specs": ["Negative"]
+    },
+    {
+      "honestly": ["Neutral"]
+    },
+    {
+      "budget": ["Neutral"]
+    }
+  ],
+  "Productivity": [
+    {
+      "battery life": [
+        "Positive",
+        "Positive",
+        "Neutral",
+        "Positive",
+        "Positive",
+        "Positive",
+        "Neutral",
+        "Positive",
+        "Positive",
+        "Positive",
+        "Negative",
+        "Positive",
+        "Positive",
+        "Positive",
+        "Positive",
+        "Positive"
+      ]
+    },
+    {
+      "runs": ["Positive", "Positive"]
+    },
+    {
+      "performs": ["Positive"]
+    },
+    {
+      "works": ["Positive", "Positive"]
+    }
+  ],
+  "RAM / Memory": [
+    {
+      "memory": ["Positive", "Positive"]
+    },
+    {
+      "usb c cord": ["Neutral"]
+    },
+    {
+      "supports": ["Neutral"]
+    },
+    {
+      "icloud backup": ["Positive"]
+    },
+    {
+      "lower ram option": ["Positive"]
+    },
+    {
+      "external ssd": ["Neutral"]
+    },
+    {
+      "storage": ["Neutral"]
+    }
+  ],
+  "Screen": [
+    {
+      "colors": ["Positive", "Positive", "Neutral"]
+    },
+    {
+      "features": ["Neutral", "Positive"]
+    },
+    {
+      "charge it": ["Positive"]
+    },
+    {
+      "dell insp": ["Positive"]
+    },
+    {
+      "taking online classes": ["Positive"]
+    }
+  ],
+  "Security": [
+    {
+      "fingerprint unlock": ["Neutral"]
+    },
+    {
+      "fingerprint sign in": ["Neutral"]
+    },
+    {
+      "thumbprint touch pad": ["Positive"]
+    },
+    {
+      "fingerprint unlock": ["Neutral"]
+    },
+    {
+      "touch id": ["Positive"]
+    }
+  ],
+  "Shipping / Packaging": [
+    {
+      "can": ["Positive"]
+    },
+    {
+      "electronics": ["Positive"]
+    },
+    {
+      "apple care": ["Positive"]
+    },
+    {
+      "battery suck": ["Neutral"]
+    },
+    {
+      "battery packs": ["Neutral"]
+    }
+  ],
+  "Software": [
+    {
+      "speed": ["Positive", "Positive"]
+    },
+    {
+      "performance": ["Positive", "Positive", "Positive", "Positive"]
+    },
+    {
+      "basic operation": ["Neutral"]
+    }
+  ],
+  "Webcam / Video Streaming": [
+    {
+      "docs": ["Neutral"]
+    },
+    {
+      "watching youtube": ["Neutral"]
+    },
+    {
+      "photo uploads": ["Neutral"]
+    },
+    {
+      "spreadsheets": ["Neutral"]
+    },
+    {
+      "icloud backup": ["Positive"]
+    },
+    {
+      "imovie": ["Neutral"]
+    },
+    {
+      "photo uploads": ["Neutral"]
+    },
+    {
+      "files": ["Neutral"]
+    },
+    {
+      "taking online classes": ["Positive"]
+    }
+  ]
+}
