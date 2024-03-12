@@ -4,7 +4,7 @@ export default function Navbar() {
       <div className='container mx-auto flex justify-between items-center'>
         <div className='flex items-center'>
           <a href='/' className='text-white font-bold text-lg'>
-            My Logo
+            ANASEN{' '}
           </a>
         </div>
         <div className='hidden md:block'>
@@ -13,9 +13,6 @@ export default function Navbar() {
           </a>
           <a href='/' className='text-gray-300 hover:text-white px-4'>
             About
-          </a>
-          <a href='/' className='text-gray-300 hover:text-white px-4'>
-            Services
           </a>
           <a href='/' className='text-gray-300 hover:text-white px-4'>
             Contact

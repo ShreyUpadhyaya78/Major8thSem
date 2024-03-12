@@ -3,10 +3,11 @@ import { useState } from 'react'; // Import useState hook
 import Navbar from './components/navbar/Navbar'; // Import Navbar component
 import CsvUpload from './components/csvupload/CsvUpload';
 import ReviewUpload from './components/reviewupload/ReviewUpload';
+import config from './data/config';
 function App() {
   // const [serverURL, setServerURL] = useState(''); // Declare serverURL state variable
   const serverURL =
-    'https://3450-2405-acc0-1207-534f-dc36-d5f-c149-deb9.ngrok-free.app';
+    config.serverURL;
   const [activeButton, setActiveButton] = useState(''); // Declare activeButton state variable
 
   // const handleURLChange = (event: React.ChangeEvent<HTMLInputElement>) => {

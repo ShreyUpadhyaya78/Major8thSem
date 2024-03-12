@@ -5,9 +5,10 @@ interface ReviewUploadProps {
 const ReviewUpoad: React.FC<ReviewUploadProps> = ({ serverURL }) => {
   const [text, setText] = useState('');
   const [response, setResponse] = useState('');
-
+  const [isLoading, setIsLoading] = useState(false);
   const handlePost = async () => {
     try {
+      setIsLoading(true);
       const res = await fetch(serverURL + '/process_text', {
         method: 'POST',
         body: JSON.stringify({ review: text }),
@@ -20,6 +21,8 @@ const ReviewUpoad: React.FC<ReviewUploadProps> = ({ serverURL }) => {
       setResponse(data);
     } catch (error) {
       console.error(error);
+    } finally {
+      setIsLoading(false);
     }
   };
   const dataKeys: string[] = Object.keys(response);
@@ -36,6 +39,7 @@ const ReviewUpoad: React.FC<ReviewUploadProps> = ({ serverURL }) => {
         className='reviewInputArea'
         placeholder='Write your review here...'
       />
+
       <button
         style={{ width: '70%' }}
         onClick={handlePost}
@@ -43,6 +47,9 @@ const ReviewUpoad: React.FC<ReviewUploadProps> = ({ serverURL }) => {
       >
         POST
       </button>
+      <div className='post-button-section'>
+        {isLoading && <div className='loader'>Loading...</div>}
+      </div>
       {response && (
         <div className='displayReviewAnalysis mt-4'>
           <table style={{ width: '100%' }}>
